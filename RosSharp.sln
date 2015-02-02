@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2010
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E79A87AA-9AFE-4941-A389-E300CFDBC41D}"
 	ProjectSection(SolutionItems) = preProject
 		Local.testsettings = Local.testsettings
@@ -41,9 +43,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RosSharp.IntegrationTests", "Test\RosSharp.IntegrationTests\RosSharp.IntegrationTests.csproj", "{C810FB6F-B9FD-4E03-8D12-96B35BF60975}"
 EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = RosSharp.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -180,5 +179,8 @@ Global
 		{E9C21C7C-D36E-416A-81EB-5EE719ACFDA1} = {4599B248-B071-422A-B308-0A9EC1A1089A}
 		{EB13E688-3F54-4954-8D3B-8642D4F738DC} = {4599B248-B071-422A-B308-0A9EC1A1089A}
 		{C810FB6F-B9FD-4E03-8D12-96B35BF60975} = {4599B248-B071-422A-B308-0A9EC1A1089A}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = RosSharp.vsmdi
 	EndGlobalSection
 EndGlobal
